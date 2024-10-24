@@ -1,0 +1,28 @@
+<!doctype html >
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width,initial-scaled=1.0">
+    <title>SQLite with Flask</title>
+    <link rel="stylesheet"href="{{url_for('static',filename='style.css')}}
+    <script src = "{{url_form('statc',filename='script')}}"defer</script>
+</head>
+</html>
+<h1>Entries</h1>
+<form method="POST" action="/add">
+    <input type="text" name="title"placeholder="Title" required
+    <textarea name = "content" placeholder="content" required></textarea>
+    <button type = "submit"Add Entry</button>
+</form>
+<u1>
+    {% for entry in entries %}
+    <li>
+        <strong>{{entry['title']}}</strong>:
+        {{entry['content']}}
+        <a href="{{url_for{'delete_entry',
+        id =entry['id'])}}">Delete</a>"
+    </li>
+    {% end for%}
+</u1>
+</body>
+</html>

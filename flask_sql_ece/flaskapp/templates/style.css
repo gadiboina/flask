@@ -1,0 +1,41 @@
+body{
+    font-family: Arial,sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: ;
+}
+h1{
+    color: ;
+
+}
+form{
+    margin-bottom: 20px;
+}
+textarea{
+    width: 100%;
+    padding: 10Px;
+    margin: 5px 0;
+    border: 1px solid;
+    border-radius: 4px;
+}
+button{
+    background-color: aquamarine;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+button:haver{
+    background-color;
+}
+li{
+    background: #white;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 40px;
+}
+a{
+    color: ;
+    
+}
